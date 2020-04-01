@@ -14,7 +14,7 @@ const signOptions = {
     // add additional sign options if you want
 }
 
-// Middlewear that will check if the request is authorized
+// Middleware that will check if the request is authorized
 function authorizeReq(req, res, next) {
     // First we grab the token from the header
     const bearerTokenHead = req.headers['authorization']

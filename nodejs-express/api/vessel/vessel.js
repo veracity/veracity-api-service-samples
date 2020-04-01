@@ -7,7 +7,7 @@ const tools = require(`../../tools/tools`)
 
 
 // /api/vessel
-// Lets use the middlewear from tools to validate the JWT token from Veracity Marketplace
+// Lets use the middleware from tools to validate the JWT token from Veracity Marketplace
 //
 router.get(`/`, tools.authorizeReq, (req, res) => {
     let payload = {}
