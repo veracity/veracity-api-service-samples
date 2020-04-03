@@ -17,7 +17,9 @@ npm run dev
 ## Endpoints
 The code ships with two endpoints to get you started
 
-get /api/vessel - require token and return 
+get /api/vessel - require token and return moch data
+
+get /api/vessel/imo  - require token and imo: 9797230 - return data on that IMO. This is static data for demo
 
 ## Test the app
 In the dummyJWKs.json you find a sample JWKs, and you may use the following JWT to test your API:
